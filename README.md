@@ -1,10 +1,26 @@
-# LLMem - Project-Specific Memory Management
+# LLMem - The Lightest Memory Management Layer
 
-A lightweight demonstration of managing project-specific memories using a single bash script. Designed to help AI agents maintain context across conversations without relying on built-in memory systems.
+A tool-independent, universal memory management system using a single bash script. LLMem provides persistent, searchable memory storage for AI agents and assistants—completely independent of any specific tool, platform, or built-in memory system.
 
 ## Overview
 
-This repository shows how to implement persistent, searchable memory storage with minimal dependencies—just bash, `jq`, and a JSON file.
+**LLMem is not about project-specific memory management**—it's a lightweight, general-purpose memory layer that works anywhere. With just bash, `jq`, and a JSON file, you get a complete memory system that:
+
+- **Works with any AI tool or platform** - No vendor lock-in
+- **Persists across conversations** - Memories survive beyond individual sessions
+- **Portable and transparent** - Simple JSON storage you can inspect and migrate
+- **Minimal dependencies** - Runs wherever bash runs
+
+## Tool-Independent Design
+
+Unlike built-in memory systems tied to specific AI platforms, LLMem is completely independent:
+
+- Not bound to any specific AI tool, chatbot, or IDE
+- No API calls, cloud services, or proprietary formats
+- Works equally well with ChatGPT, Claude, Cursor, local LLMs, or your own scripts
+- Simply integrate the bash script into any workflow—it's just standard I/O
+
+This is **universal memory management**, not project-specific state tracking.
 
 ## Storage Format
 
@@ -48,11 +64,15 @@ Returns all stored memories in a formatted, readable output.
 
 ## Use Cases
 
-- Recording architectural decisions and rationales
-- Storing project requirements and constraints
-- Tracking insights and learnings
-- Documenting risks and mitigation strategies
-- Maintaining context for AI-assisted development
+LLMem is a general-purpose memory layer for any context where you need persistent memory:
+
+- **AI Agent Memory** - Give any AI assistant long-term memory, regardless of the platform
+- **Cross-Conversation Context** - Maintain continuity across multiple chat sessions
+- **Knowledge Base** - Store and retrieve insights, decisions, and learnings
+- **Personal Notes System** - Searchable memory for your own use
+- **Multi-Tool Coordination** - Share memory between different AI tools and platforms
+
+Whether you're using ChatGPT, Claude, local LLMs, or custom agents—LLMem works with all of them.
 
 ## Dependencies
 
