@@ -84,3 +84,6 @@ Whether you're using ChatGPT, Claude, local LLMs, or custom agents—LLMem works
 
 See `AGENTS.md` for instructions on integrating this memory system with AI agents/assistants.
 
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
