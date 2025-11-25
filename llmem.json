@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "title": "LLM Memory Management Simplicity",
+    "content": "A completely independent LLM memory management system in any repository can be implemented with just a single script (like llmem.sh) and some instructions in the workspace rules. No complex infrastructure, databases, or additional dependencies needed - just a simple bash script using jq and grep for JSON manipulation and search, storing memories in a JSON file.",
+    "timestamp": "2025-11-25T20:47:41"
+  }
+]
